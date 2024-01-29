@@ -219,8 +219,8 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.8\Runtime\Common\CoreAttributes.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.8\Runtime\RenderPipeline\IShaderVariantSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.8\Runtime\ShaderLibrary\Sampling\Hammersley.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.8\Runtime\Common\ObjectPools.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.8\Runtime\Lighting\ProbeVolume\ProbeIndexOfIndices.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.8\Runtime\Common\ObjectPools.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.8\Runtime\Utilities\BatchRendererGroupGlobals.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.8\Runtime\Debugging\IDebugDisplaySettingsData.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.8\Runtime\Debugging\Prefabs\Scripts\DebugUIHandlerVector3.cs" />

@@ -498,8 +498,8 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.8\Editor\Data\Nodes\RedirectNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.8\Editor\Data\Nodes\Input\Texture\CubemapAssetNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.8\Editor\Generation\Data\FieldDependency.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.8\Editor\Data\Nodes\UV\SpherizeNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.8\Editor\Data\Nodes\Math\Range\OneMinusNode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.8\Editor\Data\Nodes\UV\SpherizeNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.8\Editor\Drawing\Blackboard\BlackboardInputInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.8\Editor\Data\Util\RGBANodeOutput.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.8\Editor\Data\Graphs\UVMaterialSlot.cs" />
@@ -720,8 +720,8 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.8\Editor\Drawing\Controls\IControlAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.8\Editor\Generation\Attributes\GenerateBlocksAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.8\Editor\Drawing\Inspector\PropertyDrawers\Vector2PropertyDrawer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.8\Editor\Data\Nodes\Utility\Logic\NotNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.8\Editor\Data\Nodes\Input\Texture\Texture3DAssetNode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.8\Editor\Data\Nodes\Utility\Logic\NotNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.8\Editor\Drawing\Controls\EnumControl.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.8\Editor\Generation\Contexts\TargetPropertyGUIContext.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.8\Editor\Data\Nodes\Math\Round\TruncateNode.cs" />
