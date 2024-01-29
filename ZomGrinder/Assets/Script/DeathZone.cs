@@ -22,10 +22,4 @@ public class DeathZone : MonoBehaviour
         offset = new Vector3(0, 0, offset.z += expansionrat * Time.deltaTime);
         rb.position += (Vector3.forward * expansionrat) * Time.deltaTime;
     }
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.green;
-        Gizmos.DrawSphere(transform.position + offset, size);
-       
-    }
 }

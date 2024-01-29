@@ -6,7 +6,12 @@ public class ExitDestroyer : MonoBehaviour
     [SerializeField] string[] TagsToDestroy;
     private void OnTriggerExit(Collider other)
     {
-        Debug.Log("exit");
-        foreach (string TagToDestroy in TagsToDestroy) {if (other.gameObject.tag == TagToDestroy) Destroy(other.gameObject); }
+        foreach (string TagToDestroy in TagsToDestroy)
+        {
+            if (other.gameObject.tag == TagToDestroy)
+            {
+                Destroy(other.gameObject);
+            }
+        }
     }
 }
