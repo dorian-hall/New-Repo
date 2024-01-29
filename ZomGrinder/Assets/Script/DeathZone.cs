@@ -12,9 +12,15 @@ public class DeathZone : MonoBehaviour
     [Tooltip("The rate at which the Death Zone expands.")]
     float expansionrat;
     Vector3 offset; 
+    Rigidbody rb;
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+    }
     private void Update()
     {
         offset = new Vector3(0, 0, offset.z += expansionrat * Time.deltaTime);
+        rb.position += (Vector3.forward * expansionrat) * Time.deltaTime;
     }
     private void OnDrawGizmos()
     {
